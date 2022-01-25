@@ -19,13 +19,13 @@ main {
   justify-content: center;
 }
 #cat {
-  height: 200px;
-  width: 190px;
+  height: 300px;
+  width: 290px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  
+  align-items: center;
 }
 section {
   display: flex;
@@ -33,6 +33,10 @@ section {
   align-items: center;
   height: rem;
   justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 footer {
   display: flex;
