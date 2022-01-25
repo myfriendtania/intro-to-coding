@@ -9,7 +9,6 @@ fetch(URL)
     <h2>Current Weather for Dallas, TX</h2>
     <p>75201</p>
     <p>Current Temperature: ${data.main.temp}</p>
-    <p>Current condition: It's raining, bitch! Stay home!</p>
     <p> How's the sky looking? ${data.weather[0].description}</p>
      <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>
      `
